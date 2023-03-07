@@ -8,12 +8,19 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", function (req, res) {
-	res.render("index");
 	const url = "https://api.adviceslip.com/advice";
 	https.get(url, function (response) {
 		response.on("data", function (data) {
-			const advice = JSON.parse(data);
+			const adviceObj = JSON.parse(data);
+			const adviceId = adviceObj.slip.id;
+			const advice = adviceObj.slip.advice;
+
+			console.log(adviceId);
 			console.log(advice);
+			res.render("index", {
+				advice: advice,
+				adviceId: adviceId,
+			});
 		});
 	});
 });
