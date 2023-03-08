@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
 	"main": "app.js",
-	"start": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/marsade/advice-generator.git"
