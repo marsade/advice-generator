@@ -3,9 +3,6 @@
 	"version": "1.0.0",
 	"description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
 	"main": "app.js",
-	"engines": {
-		"node": "14.x"
-	},
 	"scripts": {
 		"start": "node app.js"
 	},
