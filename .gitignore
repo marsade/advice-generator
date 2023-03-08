@@ -16,4 +16,4 @@
 .prettierignore
 
 node_modules
-verce.json
+vercel.json
