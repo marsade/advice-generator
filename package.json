@@ -1,23 +1,26 @@
 {
-  "name": "advice-generator-app-main",
-  "version": "1.0.0",
-  "description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marsade/advice-generator.git"
-  },
-  "author": "Mars aDE",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marsade/advice-generator/issues"
-  },
-  "homepage": "https://github.com/marsade/advice-generator#readme",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.2"
-  }
+	"name": "advice-generator-app-main",
+	"version": "1.0.0",
+	"description": "![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)",
+	"main": "app.js",
+	"engines": {
+		"node": "14.x"
+	},
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/marsade/advice-generator.git"
+	},
+	"author": "Mars aDE",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/marsade/advice-generator/issues"
+	},
+	"homepage": "https://github.com/marsade/advice-generator#readme",
+	"dependencies": {
+		"ejs": "^3.1.8",
+		"express": "^4.18.2"
+	}
 }
